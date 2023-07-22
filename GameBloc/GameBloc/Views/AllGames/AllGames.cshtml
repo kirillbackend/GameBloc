@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "AllGames";
+    @Model var reading = new Reading();
+    var games = reading.Receive();
+}
+@foreach (Game game in games)
+{
+    <form method="post">
+        <h1> @game.Id|@game.Name</h1>
+        <input type="hidden" value="@game.Id" name="id">
+        <h2> @game.Genre @game.Stylistics </h2>
+        <h2> @game.Author @game.YearRelease </h2>
+        <h3> @game.Feelings </h3>
+        <br/>
+        <input type="submit" value="Delete"/>
+    </form>
+    <br/>
+}
+
