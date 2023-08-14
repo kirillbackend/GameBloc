@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Convert Time";
+    var value = new List<string> {"Часы", "Минуты", "Секунды", "Милисекунды"};
+}
+
+<form method="post"> 
+    <p>
+    <h3> Преобразровать из </h3>
+    <select name="initialValue">
+        @{
+            for (int i = 0; i < value.Count; i++)
+            {
+                <option value="@value[i]">@value[i]</option>
+            }
+        }
+    </select>
+    <label> в </label>
+    <select name="finalValue">
+        @{
+            for (int i = 0; i < value.Count; i++)
+            {
+                <option value="@value[i]">@value[i]</option>
+            }
+        }
+    </select><br /><br />
+    <input type="text" name="number" /><br /><br />
+    <input type="submit" value="Выполнить"/>
+    </p>
+</form>
+
+<form method="get">
+    <h3> @ViewData["result"] </h3>
+</form>

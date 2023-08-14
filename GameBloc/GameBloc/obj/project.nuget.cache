@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2LwyFwUk2CJDzJX1RBt+GFM9Dd1bfHnFHC1jKusn4VA07ewZogyaU9S268Hj2CjUEgjyhNdSCLUtk3c5sHv5rg==",
+  "dgSpecHash": "gs7HHKcuETA+A8Z2wRIX0qvK5l1/syn25flMFCIFHKeJX11iI9DGsJSRNULx0ieHNTNOTpBbq92+ErsaYB+biA==",
   "success": true,
-  "projectFilePath": "E:\\NetCoreProjects\\ASPCore\\GB\\GameBloc\\GameBloc\\GameBloc.csproj",
+  "projectFilePath": "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zinch\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zinch\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
