@@ -5,10 +5,20 @@
     <title>GameBloc</title>
 </head>
 <body>
-    <h2><a href="/AllGames/AllGames">AllGames</a></h2>
-    <h2><a href="/AllGames/AddGame">AddGame</a></h2>
+
 <div>
+    <h3> @ViewBag.Title </h3>
     @RenderBody()
 </div>
+    <footer>
+        @if (IsSectionDefined("Footer"))
+        {
+            @RenderSection("Footer")
+        }
+        else
+        {
+            <h3> @Html.ActionLink("Time", "index", "Time")</h3>
+        }
+    </footer>
 </body>
 </html>
