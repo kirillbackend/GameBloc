@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\NetCoreProjects\ASPCore\GameBloc\GameBloc\GameBloc
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/AddGame/AddGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkR2FtZVxBZGRHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/AddGame/AllGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkR2FtZVxBbGxHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/ConvertTime/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVydFRpbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
