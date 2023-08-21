@@ -1,6 +1,7 @@
 ﻿@{
     ViewBag.Title = "Convert Time";
     var value = new List<string> {"Часы", "Минуты", "Секунды", "Милисекунды"};
+    @model double
 }
 
 <form method="post"> 
@@ -29,5 +30,5 @@
 </form>
 
 <form method="get">
-    <h3> @ViewData["result"] </h3>
+    <h3> @Model </h3>
 </form>
