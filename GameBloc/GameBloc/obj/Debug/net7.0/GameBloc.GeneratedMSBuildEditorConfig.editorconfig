@@ -9,25 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameBloc
 build_property.RootNamespace = GameBloc
-build_property.ProjectDir = E:\NetCoreProjects\ASPCore\GB\GameBloc\GameBloc\
+build_property.ProjectDir = E:\NetCoreProjects\ASPCore\GameBloc\GameBloc\GameBloc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\NetCoreProjects\ASPCore\GB\GameBloc\GameBloc
+build_property.MSBuildProjectDirectory = E:\NetCoreProjects\ASPCore\GameBloc\GameBloc\GameBloc
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/NetCoreProjects/ASPCore/GB/GameBloc/GameBloc/Views/Shared/_Layout.cshtml]
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/AddGame/AddGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkR2FtZVxBZGRHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/AddGame/AllGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkR2FtZVxBbGxHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/Calculator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/ConvertTime/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVydFRpbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/GameSearch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVNlYXJjaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/GameSearch/ShowGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVNlYXJjaFxTaG93R2FtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCoreProjects/ASPCore/GB/GameBloc/GameBloc/Views/Time/Index.cshtml]
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/Time/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCoreProjects/ASPCore/GB/GameBloc/GameBloc/Views/_ViewImports.cshtml]
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NetCoreProjects/ASPCore/GB/GameBloc/GameBloc/Views/_ViewStart.cshtml]
+[E:/NetCoreProjects/ASPCore/GameBloc/GameBloc/GameBloc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

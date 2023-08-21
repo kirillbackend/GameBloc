@@ -17,7 +17,14 @@
         }
         else
         {
-            <h3> @Html.ActionLink("Time", "index", "Time")</h3>
+            <p>
+                @Html.ActionLink("Time", "index", "Time")
+                @Html.ActionLink("ConvertTime", "index", "ConvertTime")
+                @Html.ActionLink("Add Games", "AddGame", "AddGame")
+                @Html.ActionLink("AllGame", "AllGame", "AddGame")
+                @Html.ActionLink("Calculator","index", "Calculator")
+                @Html.ActionLink("GameSearch", "index", "GameSearch")
+            </p>
         }
     </footer>
 </body>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Calculator";
+    @model int
+}
+<form method="get">
+    @Model
+</form>
+<form method="post">
+    <input type="text" name="firstValue" />
+    <select name="simbol">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" name="secondValue" /><br />
+    <input type="submit" name="Submit" />
+</form>
