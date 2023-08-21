@@ -16,16 +16,9 @@ namespace GameBloc.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddGame()
+        public IActionResult AddGame(Game game)
         {
             var context = Request.HttpContext;
-            var game = new Game();
-            game.Name = context.Request.Form["name"];
-            game.Genre = context.Request.Form["genre"];
-            game.Stylistics = context.Request.Form["stylistics"];
-            game.YearRelease = context.Request.Form["yearRelease"];
-            game.Author = context.Request.Form["author"];
-            game.Feelings = context.Request.Form["feelings"];
             var service = context.RequestServices.GetService<IAddGameService>();
             service.AddGame(game);
             return RedirectPermanent("~/AddGame/AllGame");

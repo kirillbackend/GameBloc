@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IAddGameService, AddGameService>();
 builder.Services.AddTransient<IAllGame, AllGame>();
-builder.Services.AddTransient<ICalculatorModel, CalculatorModel>();
+builder.Services.AddTransient<ICalculator, CalculatorModel>();
 builder.Services.AddTransient<IConvertTimeModel, ConvertTimeModel>();
 var app = builder.Build();
 

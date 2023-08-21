@@ -5,9 +5,9 @@ namespace GameBloc.Controllers
 {
     public class CalculatorController : Controller
     {
-        private ICalculatorModel _calculatorModel;
+        private ICalculator _calculatorModel;
 
-        public CalculatorController(ICalculatorModel calculatorModel) 
+        public CalculatorController(ICalculator calculatorModel) 
         {
             _calculatorModel = calculatorModel;
         }
@@ -21,10 +21,7 @@ namespace GameBloc.Controllers
         [HttpPost]
         public IActionResult Index(int firstValue, int secondValue, string simbol)
         {
-            _calculatorModel.Simbol = simbol;
-            _calculatorModel.FirstValue = firstValue;
-            _calculatorModel.SecondValue = secondValue; 
-            return View(_calculatorModel.Calculate());
+            return View(_calculatorModel.Calculate(simbol, firstValue, secondValue));
         }
     }
 }
