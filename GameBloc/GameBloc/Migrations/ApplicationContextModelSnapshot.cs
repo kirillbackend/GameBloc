@@ -21,7 +21,7 @@ namespace GameBloc.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("GameBloc.Models.Entity.Game", b =>
+            modelBuilder.Entity("GameBloc.Models.Entity.OperationsGames", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

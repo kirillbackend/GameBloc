@@ -1,4 +1,4 @@
-﻿using GameBloc.Models.Setvices.Game;
+﻿using GameBloc.Models.Setvices.OperationsGames;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameBloc.Controllers

@@ -1,5 +1,5 @@
 ﻿using GameBloc.Models.Entity;
-using GameBloc.Models.Setvices.Game.Interface;
+using GameBloc.Models.Setvices.OperationsGames.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameBloc.Controllers

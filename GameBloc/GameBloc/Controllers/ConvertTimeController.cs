@@ -1,4 +1,4 @@
-﻿using GameBloc.Models;
+﻿using GameBloc.Models.Setvices.ConvertTime;
 using GameBloc.Models.Setvices.ConvertTime.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,26 +6,23 @@ namespace GameBloc.Controllers
 {
     public class ConvertTimeController : Controller
     {
-        private IConvertTimeModel _convertTimeModel;
+        private IConvertTimeService _convertTimeService;
 
-        public ConvertTimeController(IConvertTimeModel convertTimeModel) 
+        public ConvertTimeController(IConvertTimeService convertTimeService) 
         {
-            _convertTimeModel = convertTimeModel;
+            _convertTimeService = convertTimeService;
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(int r)
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Index(int number,string initialValue, string finalValue)
+        public IActionResult Index(int number, TimePart fromTimePart, TimePart toTimePart)
         {
-            var metod = initialValue + finalValue;
-            _convertTimeModel.Metod = metod;
-            _convertTimeModel.Value = number;
-            return View(_convertTimeModel.GetTime());
+            return View(_convertTimeService.GetTime(number, fromTimePart, toTimePart));
         }
     }
 }
