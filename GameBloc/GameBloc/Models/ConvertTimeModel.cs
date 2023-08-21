@@ -2,16 +2,17 @@
 
 namespace GameBloc.Models
 {
-    public class ConvertTimeModel : IConvert
+    public class ConvertTimeModel : IConvertTimeModel
     {
-        private readonly int _value;
-        private readonly string _metod;
+        private int _value;
+        private string _metod;
         private readonly Dictionary<string, Func<int, double>> convertMetols;
 
-        public ConvertTimeModel(int value, string metod)
+        public int Value { set { _value = value; } }
+        public string Metod { set { _metod = value; } }
+
+        public ConvertTimeModel()
         {
-            _value = value;
-            _metod = metod;
             convertMetols = new Dictionary<string, Func<int, double>>()
             {
                 {"ЧасыЧасы", (value) =>  TimeSpan.FromHours(value).TotalHours},
