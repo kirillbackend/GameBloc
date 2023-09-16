@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj": {}
+    "E:\\MVC\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj": {}
   },
   "projects": {
-    "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj": {
+    "E:\\MVC\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj",
+        "projectUniqueName": "E:\\MVC\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj",
         "projectName": "GameBloc",
-        "projectPath": "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj",
+        "projectPath": "E:\\MVC\\GameBloc\\GameBloc\\GameBloc\\GameBloc.csproj",
         "packagesPath": "C:\\Users\\zinch\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCoreProjects\\ASPCore\\GameBloc\\GameBloc\\GameBloc\\obj\\",
+        "outputPath": "E:\\MVC\\GameBloc\\GameBloc\\GameBloc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
